@@ -174,3 +174,31 @@ body {
   font-size: 12px;
   color: #787885;
 }
+/* ----------------------------
+ Media quary
+ --------------------------- */
+
+@media only screen and (max-width: 650px) {
+  .titel {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.2em;
+  }
+  .navber {
+    display: none;
+  }
+  .header-section {
+    margin-top: 50px;
+  }
+  .content {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .img-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    left: 3px;
+  }
+}
